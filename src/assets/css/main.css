@@ -1,0 +1,22 @@
+@import './base.css';
+
+/*
+Theme Colors
+Purple :: solid-purple-600 :: #A020F0
+Gray :: solid-stone-300 :: #C0C0C0
+Black :: solid-stone-900 :: #1F1F1F
+White :: solid-neutral-200 :: #E1E1E1
+Success/ Green :: solid-emerald-400 :: #46D398
+Pregress/ Yellow :: solid-amber-400 :: #E8BF31
+Danger/ Red :: solid-red-500 :: #F4553F
+Info/ Blue :: solid-sky-400 :: #44AFFC
+
+*/
+
+@layer utilities {
+/* Custom Class Creator */
+}
+
+.container {
+    @apply px-5 mx-auto;
+}
